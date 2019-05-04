@@ -16,8 +16,8 @@ async def on_message(message):
         embed.set_thumbnail(url="https://cdn.lucknetwork.jp/img/kawaii_1.png")
         await client.send_message(message.channel, embed=embed)
 
-welcome=discord.Embed(title="Luck Network 公式Discord へようこそ！", description="このグループでは運営への質問や報告、プレイヤーとの交流ができます。\nまた、最初に参加された方は全てのチャンネルが表示されていません。\n**参加された方は必ず[サーバールール](https://wiki.lucknetwork.jp/rules)に目を通し、**__**チャットにて**__ `!accept` __**と入力してください。**__\n\n\n\n", color=0xb5157d)
-welcome.set_thumbnail(url="https://cdn.lucknetwork.jp/img/kawaii_1.png")
+        welcome=discord.Embed(title="Luck Network 公式Discord へようこそ！", description="このグループでは運営への質問や報告、プレイヤーとの交流ができます。\nまた、最初に参加された方は全てのチャンネルが表示されていません。\n**参加された方は必ず[サーバールール](https://wiki.lucknetwork.jp/rules)に目を通し、**__**`💁認証｜apply` チャンネルにて**__ `!accept` __**と発言してください。**__\n\n\n\n", color=0xb5157d)
+        welcome.set_thumbnail(url="https://cdn.lucknetwork.jp/img/kawaii_1.png")
 
 @client.event
 async def on_member_join(member):
